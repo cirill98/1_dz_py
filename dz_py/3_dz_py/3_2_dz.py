@@ -20,11 +20,11 @@ print(l2)
 
 # или
 
-# import math
-# list = [2, 3, 5, 6]
-# result = []              
+import math
+list = [2, 3, 5, 6]
+result = []              
 
-# n = math.ceil(len(list) / 2)
-# for i in range(n):
-#     result.append(list[i] * list[-i - 1])
-# print(result)
+n = math.ceil(len(list) / 2)
+for i in range(n):
+    result.append(list[i] * list[-i - 1])
+print(result)
